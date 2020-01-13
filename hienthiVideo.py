@@ -7,7 +7,7 @@ Created on Mon Dec 16 19:33:02 2019
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('out_op1.avi')
+cap = cv2.VideoCapture('out_op5.avi')
 
 while(cap.isOpened()):
     ret, frame = cap.read()
